@@ -23,6 +23,8 @@ class Counter extends Component {
           Decreament
         </button>
         {this.renderTags()}
+		<br/>
+		
       </React.Fragment>
     );
   }
