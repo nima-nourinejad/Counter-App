@@ -6,10 +6,10 @@ import NavBar from "./components/navbar";
 class App extends Component {
   state = {
     counters: [
-      { id: 1, value: 0 },
-      { id: 2, value: 0 },
-      { id: 3, value: 0 },
-      { id: 4, value: 0 },
+      { id: 1, value: 0, name: "Product1", price: 101, img: "https://picsum.photos/200" },
+      { id: 2, value: 0, name: "Product2", price: 102, img: "https://picsum.photos/200" },
+      { id: 3, value: 0, name: "Product3", price: 103, img: "https://picsum.photos/200" },
+      { id: 4, value: 0, name: "Product4", price: 104, img: "https://picsum.photos/200" },
     ],
   };
 
@@ -39,8 +39,8 @@ class App extends Component {
     return (
       <React.Fragment>
         <NavBar
-          totalCounters={this.state.counters.filter((c) => c.value > 0).length}
-		  totalValues={this.state.counters.reduce((a, b) => a + b.value, 0)}
+          totalCounters={this.state.counters.reduce((a, b) => a + b.value, 0)}
+		  totalValues={this.state.counters.reduce((a, b) => a + (b.value * b.price), 0)}
         />
         <nain className="container">
           <Counters

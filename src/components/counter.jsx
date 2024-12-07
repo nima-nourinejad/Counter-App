@@ -4,6 +4,9 @@ class Counter extends Component {
   render() {
     return (
       <React.Fragment>
+		<img src={this.props.counter.img} alt="Product" />
+		<h5>{this.props.counter.name}</h5>
+		<h5>Prise: {this.props.counter.price} $</h5>
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
           onClick={() => this.props.onIncrement(this.props.counter)}
@@ -23,7 +26,7 @@ class Counter extends Component {
         >
           Delete
         </button>
-        <br />
+        <br/> <br/>
       </React.Fragment>
     );
   }
