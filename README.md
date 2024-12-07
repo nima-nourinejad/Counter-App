@@ -38,7 +38,7 @@ The application includes:
 ## Screenshots
 
 ### Main Screen  
-![Main Screen](https://via.placeholder.com/800x400.png?text=SmartCart+Manager+Main+Interface)
+![Main Screen](./Demo.jpg)
 
 ---
 
