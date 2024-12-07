@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/Counter-App/static/css/main.284706bd.css",
-    "main.js": "/Counter-App/static/js/main.1875df22.js",
+    "main.css": "/Counter-App/static/css/main.5aaf4e77.css",
+    "main.js": "/Counter-App/static/js/main.a54c2715.js",
     "static/js/453.bd306e10.chunk.js": "/Counter-App/static/js/453.bd306e10.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/Counter-App/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Counter-App/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/Counter-App/index.html",
-    "main.284706bd.css.map": "/Counter-App/static/css/main.284706bd.css.map",
-    "main.1875df22.js.map": "/Counter-App/static/js/main.1875df22.js.map",
+    "main.5aaf4e77.css.map": "/Counter-App/static/css/main.5aaf4e77.css.map",
+    "main.a54c2715.js.map": "/Counter-App/static/js/main.a54c2715.js.map",
     "453.bd306e10.chunk.js.map": "/Counter-App/static/js/453.bd306e10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.284706bd.css",
-    "static/js/main.1875df22.js"
+    "static/css/main.5aaf4e77.css",
+    "static/js/main.a54c2715.js"
   ]
 }
