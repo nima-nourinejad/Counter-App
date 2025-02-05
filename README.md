@@ -2,7 +2,6 @@
 
 Welcome to **SmartCart Manager**, a modern React application designed to demonstrate the basics of building a dynamic and interactive product tracking system. This project showcases my React skills through clean design and responsive functionality.
 
-
 ---
 
 ## Live Demo
